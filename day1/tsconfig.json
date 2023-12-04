@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true,
+    "inlineSources": true,
+    "inlineSourceMap": true,
+    "sourceRoot": "./",
+    "target": "es2017",
+    "outDir": "dist",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "lib": ["es2017", "dom"],
+    "rootDir": "./",
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules",
+    "node_modules/**/*",
+    "**/node_modules/**/*",
+    "dist",
+    "dist/**/*"
+  ]
+}
